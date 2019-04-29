@@ -1,0 +1,24 @@
+{
+  "name": "helloworld",
+  "version": "1.0.0",
+  "description": "Hello, world",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ethomson/node-helloworld"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "exit 0",
+    "test": "exit 0"
+  },
+  "keywords": [
+    "hello",
+    "helloworld"
+  ],
+  "author": "Edward Thomson <ethomson@edwardthomson.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
